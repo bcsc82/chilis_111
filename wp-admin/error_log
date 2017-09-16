@@ -1,0 +1,11 @@
+[08-Aug-2017 02:26:51 UTC] Error de la base de datos de WordPress Unknown column 'wp_' in 'field list' para SELECT wp_ consultas
+[08-Aug-2017 02:26:53 UTC] Error de la base de datos de WordPress Table 'gearslit_brenda.wp_users' doesn't exist para SELECT * FROM wp_users WHERE user_login = 'brenda' consultas hechas por require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), WP->init, wp_get_current_user, _wp_get_current_user, apply_filters('determine_current_user'), WP_Hook->apply_filters, wp_validate_logged_in_cookie, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[08-Aug-2017 02:27:18 UTC] Error de la base de datos de WordPress Table 'gearslit_brenda.wp_users' doesn't exist para SELECT * FROM wp_users WHERE user_login = 'brenda' consultas hechas por require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), WP->init, wp_get_current_user, _wp_get_current_user, apply_filters('determine_current_user'), WP_Hook->apply_filters, wp_validate_logged_in_cookie, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[17-Aug-2017 01:26:46 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function weblog_reset_db_setting(), 1 passed in /home/gearslite/public_html/brenda/wp-includes/class-wp-hook.php on line 298 and exactly 2 expected in /home/gearslite/public_html/brenda/wp-content/themes/weblog/acmethemes/customizer/options/options-reset.php:25
+Stack trace:
+#0 /home/gearslite/public_html/brenda/wp-includes/class-wp-hook.php(298): weblog_reset_db_setting(Object(WP_Customize_Manager))
+#1 /home/gearslite/public_html/brenda/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /home/gearslite/public_html/brenda/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/gearslite/public_html/brenda/wp-includes/class-wp-customize-manager.php(2737): do_action('customize_save_...', Object(WP_Customize_Manager))
+#4 /home/gearslite/public_html/brenda/wp-includes/theme.php(2869): WP_Customize_Manager->_publish_changeset_values(69)
+#5 /home/gearslite/public_html/brenda/wp-includes/class-wp-hook.php(298): _wp_customize_publish_cha in /home/gearslite/public_html/brenda/wp-content/themes/weblog/acmethemes/customizer/options/options-reset.php on line 25

@@ -1,0 +1,16 @@
+.appearance_page_getting-started .welcome-panel {
+	max-width: 1170px;
+}
+
+.appearance_page_getting-started .welcome-panel .welcome-img {
+	margin-top: 40px;
+	max-width: 100%;
+	height: auto;
+}
+
+.appearance_page_getting-started .welcome-panel .welcome-panel-column {
+    width: 32% !important;
+    min-width: 200px;
+    float: left;
+    margin-right: 1%;
+}
